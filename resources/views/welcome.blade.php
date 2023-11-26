@@ -212,7 +212,7 @@
             justify-content: center;
             grid-area: ubicacion;
         }
-        .map{grid-area: mapa;}
+        .map{grid-area: mapa;}  
     </style>
 </head>
 <body class="container">
