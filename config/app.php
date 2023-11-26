@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Clinica Dental Sonrisitas'),
+    'name' => env('Clinica Dental Sonrisitas', 'Clinica Dental Sonrisitas'),
 
     /*
     |--------------------------------------------------------------------------
