@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\LogoutController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,4 +24,7 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
+Route::get('/logout', [LogoutController::class, 'logout'])->name('logout');
+
 require __DIR__.'/auth.php';
+
